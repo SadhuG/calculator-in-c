@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Function to clear the console screen
 void clearScreen()
 {
 #ifdef _WIN32
@@ -10,6 +11,7 @@ void clearScreen()
 #endif
 }
 
+// Function to pause the program
 void pressAnyKeyToContinue()
 {
   system("pause");
